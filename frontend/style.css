@@ -1,0 +1,91 @@
+/* Login */
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and background */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Login Container */
+.login-container {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+}
+
+/* Heading */
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Input Group */
+.input-group {
+    margin-bottom: 20px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.input-group input:focus {
+    border-color: #4e73df;
+    outline: none;
+}
+
+/* Button */
+.btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #4e73df;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #375a9b;
+}
+
+/* Extra links */
+.extra-links {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.extra-links a {
+    color: #4e73df;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.extra-links a:hover {
+    text-decoration: underline;
+}
